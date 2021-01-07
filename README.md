@@ -1,6 +1,8 @@
 # Soprano
 Build and visualize Minecraft chat components
 
+<img src="img\cover.png"/>
+
 ## Build
 
 Run `cmake`. I personally use `ninja`, but you could use anything. There should be no platform restrictions -- although it hasn't been tested on anything other than Windows 10.
