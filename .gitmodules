@@ -1,0 +1,7 @@
+[submodule "LibSoprano/fmt"]
+	path = LibSoprano/fmt
+	url = https://github.com/fmtlib/fmt.git
+[submodule "imgui"]
+	path = imgui
+	url = https://github.com/ocornut/imgui
+	branch = docking
