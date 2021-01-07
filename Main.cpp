@@ -71,7 +71,9 @@ bool poll()
 
 void draw()
 {
+#ifdef _DEBUG
     ImGui::ShowDemoWindow();
+#endif
 
     ImGui::SetNextWindowSizeConstraints(ImVec2(300, 200), ImVec2(FLT_MAX, FLT_MAX));
     if(ImGui::Begin("Soprano", &s_window_open))
